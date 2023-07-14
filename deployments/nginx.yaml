@@ -19,9 +19,9 @@ spec:
         name: nginx
         resources:  
           requests:
-            cpu: 100Mi
+            cpu: 100m
             memory: 0.5G
           limits:
-            cpu: 150Mi
+            cpu: 150m
             memory: 0.75G
 status: {}
